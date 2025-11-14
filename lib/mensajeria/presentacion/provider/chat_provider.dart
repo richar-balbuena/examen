@@ -39,7 +39,7 @@ class ChatProvider extends ChangeNotifier {
     notifyListeners();
     moveScrollToButtom();
     
-    if (text.endsWith('?')) {
+    if (text.endsWith('!')) {
       await herReply();
     }
   }
